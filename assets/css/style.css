@@ -25,7 +25,8 @@ header {
 
 .head-container {
     /* width: 960px; */
-    width: 80%;
+    width: 100%;
+    max-width: 960px;
     margin: auto;
 }
 
@@ -65,7 +66,8 @@ MAIN
 
 .container {
     /* width: 960px; */
-    width: 80%;
+    width: 100%;
+    max-width: 960px;
     margin: auto;
     min-height: 100%;
     margin-bottom: -50px;
@@ -113,7 +115,7 @@ INDEX PAGE
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     line-height: 1.5;
-    padding-top: 28px;
+    padding-top: 16px;
     font-weight: 100;
 }
 
@@ -154,8 +156,7 @@ PORTFOLIO PAGE
 .image {
     position: relative;
     display: inline-block;
-    /* padding: 20px 10px 20px 50px; */
-    padding: 20px;
+    padding: 25px 25px 25px 40px;
 }
 
 .caption {
