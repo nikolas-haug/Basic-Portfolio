@@ -24,7 +24,8 @@ header {
 }
 
 .head-container {
-    width: 960px;
+    /* width: 960px; */
+    width: 80%;
     margin: auto;
 }
 
@@ -63,7 +64,8 @@ MAIN
 ===================================== */
 
 .container {
-    width: 960px;
+    /* width: 960px; */
+    width: 80%;
     margin: auto;
     min-height: 100%;
     margin-bottom: -50px;
@@ -152,7 +154,8 @@ PORTFOLIO PAGE
 .image {
     position: relative;
     display: inline-block;
-    padding: 20px 10px 20px 50px;
+    /* padding: 20px 10px 20px 50px; */
+    padding: 20px;
 }
 
 .caption {
@@ -163,7 +166,12 @@ PORTFOLIO PAGE
     text-align: center;
     padding: 10px 0;
     position: absolute;
-    bottom: 44px;
+    bottom: 50px;
+}
+
+.image .caption p:hover {
+    color: #777;
+    transition: all, 0.3s;
 }
 
 /* 
