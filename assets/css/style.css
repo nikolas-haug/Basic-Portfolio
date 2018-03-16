@@ -8,24 +8,24 @@ html, body {
 }
 
 body {
-    background-image: url('../images/bgnoise_lg.png');
+    background-image: url('../images/bgnoise_lg_@2X.png');
 }
 
 /* 
 =========================================
-HEADER / NAVIGATION
+HEADER / NAVBAR
 ========================================= */
-
-.head-container {
-    /* width: 960px; */
-    margin: 0 168px;
-}
 
 header {
     height: 70px;
     margin-bottom: 20px;
     border-bottom: 1px solid #ccc;
     background-color: #fff;
+}
+
+.head-container {
+    width: 960px;
+    margin: auto;
 }
 
 .navbar a {
@@ -47,8 +47,10 @@ header {
 .logo {
     float: left;
     background-color: #4aaea5;
-    font-size: 24px;
-    padding: 23px;
+    font-size: 26px;
+    letter-spacing: 1.4px;
+    font-weight: 600;
+    padding: 22px;
 }
 
 .logo a {
@@ -79,7 +81,7 @@ section {
 
 .content {
     border: 1px solid #ddd;
-    /* fix box shadow TO DO */
+    /* box shadow */
     box-shadow: 0px 6px 45px 9px rgba(133,133,140,1);
     padding: 20px;
     min-height: 100%;
@@ -107,9 +109,9 @@ INDEX PAGE
 
 .index-content {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 1.4;
-    padding-top: 20px;
+    font-size: 17px;
+    line-height: 1.5;
+    padding-top: 28px;
     font-weight: 100;
 }
 
@@ -118,14 +120,15 @@ CONTACT PAGE
 =========================================== */
 
 input {
-    height: 20px;
+    height: 30px;
 }
 
 input,
 textarea {
     width: 100%;
     margin: 5px 0;
-    font-size: 80%;
+    padding: 3px;
+    font-size: 90%;
     color: #777;
 }
 
@@ -149,19 +152,19 @@ PORTFOLIO PAGE
 .image {
     position: relative;
     display: inline-block;
-    padding: 20px 10px 20px 40px;
+    padding: 20px 10px 20px 50px;
 }
 
 .caption {
-    height: 40px;
+    height: 30px;
     width: 230px;
-    background-color: purple;
+    background-color: #4aaea5;
+    color: #fff;
     text-align: center;
-    /* padding-bottom: 20px; */
+    padding: 10px 0;
     position: absolute;
-    bottom: 40px;
+    bottom: 44px;
 }
-
 
 /* 
 ===========================================
